@@ -7,7 +7,14 @@
 .btn-primary {
   text-align: center;
   padding: 20px 30px;
-  margin-bottom: 50px;
+  margin: 20px 0px 50px 0px;
+  border-radius: 5px;
+  color: aliceblue;
+  background: #ff900e;
+  font-size: 1.25rem;
+  font-weight: 600;
+  cursor: pointer;
+  border: 0;
 }
 /* header styles */
 header {
@@ -50,4 +57,24 @@ nav li a {
 }
 .banner-description {
   color: #131313;
+}
+.banner img {
+  width: 100%;
+}
+/* responsive mediaquary */
+/* mobile devices */
+@media only screen and (max-width: 576px) {
+  header {
+    padding: 20px;
+  }
+  nav {
+    flex-direction: column;
+  }
+}
+/* tablets or medium devices */
+@media only screen and(min-width:576px) and(max-width:992px) {
+  nav {
+    flex-direction: column;
+    padding: 50px;
+  }
 }
