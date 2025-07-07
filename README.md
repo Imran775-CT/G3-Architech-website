@@ -16,10 +16,7 @@ Example:
 ## 🛠️ Technologies Used
 
 - HTML5  
-- CSS3 / Tailwind CSS  
-- JavaScript / React (if applicable)  
-- Git & GitHub  
-- Vite (if used)
+- CSS3 / 
 
 ---
 
